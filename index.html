@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./sass/index.css" />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        position: absolute;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <section class="card profile">
+        <div class="profile">
+          <img
+            class="profile_img"
+            src="./images/image-jeremy.png"
+            alt=""
+            width="80px"
+            height="80px"
+          />
+          <p>
+            <span>Report for</span>
+            Jeremy Robson
+          </p>
+        </div>
+        <div class="filter">
+          <a href="#">Daily</a>
+          <a href="#" id="default">Weekly</a>
+          <a href="#">Monthly</a>
+        </div>
+      </section>
+      <section class="card">
+        <div class="panel work">
+          <img class="panel_img" src="./images/icon-work.svg" alt="" />
+        </div>
+        <div class="info work">
+          <div>
+            <span class="title">Work</span>
+            <span class="options"
+              ><img src="./images/icon-ellipsis.svg" alt=""
+            /></span>
+          </div>
+          <div class="hours">
+            <span class="present"></span><span class="previous"></span>
+          </div>
+        </div>
+      </section>
+      <section class="card">
+        <div class="panel play">
+          <img class="panel_img" src="./images/icon-play.svg" alt="" />
+        </div>
+        <div class="info play">
+          <div>
+            <span class="title">Play</span>
+            <span class="options"
+              ><img src="./images/icon-ellipsis.svg" alt=""
+            /></span>
+          </div>
+          <div class="hours">
+            <span class="present"></span><span class="previous"></span>
+          </div>
+        </div>
+      </section>
+      <section class="card">
+        <div class="panel study">
+          <img class="panel_img" src="./images/icon-study.svg" alt="" />
+        </div>
+        <div class="info study">
+          <div>
+            <span class="title">Study</span>
+            <span class="options"
+              ><img src="./images/icon-ellipsis.svg" alt=""
+            /></span>
+          </div>
+          <div class="hours">
+            <span class="present"></span><span class="previous"></span>
+          </div>
+        </div>
+      </section>
+      <section class="card">
+        <div class="panel exercise">
+          <img class="panel_img" src="./images/icon-exercise.svg" alt="" />
+        </div>
+        <div class="info exercise">
+          <div>
+            <span class="title">Exercise</span>
+            <span class="options"
+              ><img src="./images/icon-ellipsis.svg" alt=""
+            /></span>
+          </div>
+          <div class="hours">
+            <span class="present"></span><span class="previous"></span>
+          </div>
+        </div>
+      </section>
+      <section class="card">
+        <div class="panel social">
+          <img class="panel_img" src="./images/icon-social.svg" alt="" />
+        </div>
+        <div class="info social">
+          <div>
+            <span class="title">Social</span>
+            <span class="options"
+              ><img src="./images/icon-ellipsis.svg" alt=""
+            /></span>
+          </div>
+          <div class="hours">
+            <span class="present"></span><span class="previous"></span>
+          </div>
+        </div>
+      </section>
+      <section class="card">
+        <div class="panel self_care">
+          <img class="panel_img" src="./images/icon-self-care.svg" alt="" />
+        </div>
+        <div class="info self_care">
+          <div>
+            <span class="title">Self Care</span>
+            <span class="options"
+              ><img src="./images/icon-ellipsis.svg" alt=""
+            /></span>
+          </div>
+          <div class="hours">
+            <span class="present"></span><span class="previous"></span>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Pratyush Baxla</a>.
+    </div> -->
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="/javascripts/index.js"></script>
+</html>
